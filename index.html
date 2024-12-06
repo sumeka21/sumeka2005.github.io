@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Font Awesome.html" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>website designer</p>
+                <h1>HI, I'M SUMEKA PANDIYAN </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----about------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="WhatsApp Image 2024-11-14 at 18.39.48_6b9aa514.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About me</h1>
+                    <p>Hello, I'm sumeka pandiyan...An app developer is responsible for designing, developing, and maintaining mobile applications across various platforms such as iOS and Android. Their primary focus is to create functional, efficient, and seamless apps that meet user needs and perform well. They write code, integrate APIs, fix bugs, and ensure apps run smoothly while staying up-to-date with the latest technologies and trends in mobile app development. They work closely with designers and other team members to bring a concept to life, focusing on the technical aspects of the app’s functionality and performance.
+
+                        A web designer and UI/UX designer, on the other hand, focuses on the visual and interactive elements of a website or application. Web designers create layouts, visual themes, and graphics, ensuring the design aligns with the brand's identity and appeals to the target audience. UI/UX designers emphasize the user experience, ensuring the interface is intuitive, easy to navigate, and provides a seamless experience across devices. They conduct user research, create wireframes and prototypes, and continuously iterate on designs based on feedback and testing. Together, these roles play crucial parts in developing high-quality, engaging, and user-centered digital products.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web development</span><br> Web App development</li>
+                            <li><span>App development</span><br>front-end developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-current</span><br>Designing Web/App interfaces</li>
+                            <li><span>2023-current</span><br> Web App development</li>
+                            <li><span>2023-current</span><br>front-end developer</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Designing Web/App training in first year</li>
+                            <li><span>2024</span><br> Web App development training in first year</li>
+                            <li><span>2023</span><br>front-end developer training in first year</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------services-------------- -->
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-tittle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fab fa-wordpress"></i>
+                    <h2>Web design</h2>
+                    <p>Web design is the process of creating visually appealing, user-friendly, and functional websites that provide a seamless online experience.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App design</h2>
+                    <p>A user-friendly mobile app that provides primary functionality with intuitive navigation.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-figma"></i>
+                    <h2>UI/UX design</h2>
+                    <p>UI/UX design focuses on creating intuitive, visually appealing interfaces (UI) and optimizing the overall user experience (UX).</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------portfolio------------ -->
+     <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My work</h1>
+            <div class="work-list">
+               <div class="work">
+                   <img src="thrid.images.jpeg">
+                   <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                   Download it from play store. </p>
+                   <a href="#"><i class="fas fa-paperclip"></i></a>
+                    
+                   </div>
+               </div> 
+               <div class="work">
+                <img src="second.images.jpeg">
+                <div class="layer">
+                    <h3>musicApp</h3>
+                    <p>The app connects you to the talented people around the world.
+                   Download it from play store. </p>
+                   <a href="#"><i class="fas fa-paperclip"></i></a>
+                    
+            </div> 
+
+                
+       </div>
+        
+            </div>
+            <a href="#" class="btn">See more</a>
+
+        </div>
+        <!-- -----------------contact------------------ -->
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-tittle">Contact Me</h1>
+                        <p><i class="fas fa-paper-plane"></i>sumekapandiyanp@gmail.com</p>
+                        <p><i class="fas fa-phone-square-alt"></i>8825466209</p>
+                        <div class="Social-icons">
+                            <a href=""><i class="fab  fa-instagram"></i></a>
+                            <a href=""><i class="fab  fa-twitter-square"></i></a>
+                            <a href="https://facebook.com/"><i class="fab  fa-facebook"></i></a>
+                            <a href=""><i class="fab  fa-linkedin"></i></a>
+                        </div>
+                        <a href="" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+<div class="copyright">
+    <p>Copyright @ sumeka pandiyan. Made with<i class="fas fa-heart"></i> by Easy Tutorials</p>
+</div>
+         </div>
+        
+     </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(event, tabname) {
+            // Remove active class from all links and contents
+            for (var tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (var tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            // Add active class to the clicked link and corresponding tab content
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+         }
+         function closemenu(){
+            sidemeu.style.right="-200px";
+         }
+    </script>
+    <script>
+        const script ='https://script.google.com/macros/s/AKfycbz4tHsegzDxZ2KT6wzZblTU31mvM6iRABt7dATwh11niir2Ssp-dZPzeiyfrawEk6p/exec'
+        const 
+    </script>
+</body>
+</html>
